@@ -1,0 +1,50 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(255, 255, 255,0.5),rgb(255, 255, 255,0.5)), url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.betterup.com%2Fblog%2Fhow-to-start-journaling&psig=AOvVaw2yI06bSkm1jUwMGvXeojoQ&ust=1684772472449000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIDqndvohv8CFQAAAAAdAAAAABAJ");
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label {
+    margin: 10px 0;
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: - 50px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
