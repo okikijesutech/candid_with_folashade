@@ -1,0 +1,36 @@
+.cta {
+    border: 1px solid black;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ctaTitle > h3 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ctaForm > Input {
+    border: none;
+    margin-bottom: 5px;
+}
+
+.ctaForm > Input:focus {
+    border: none;
+}
+
+.ctaBtn {
+    border: none;
+    background-color: #110d0f;
+    color:  #eed7e1;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+@media screen and (max-width: 768px){
+    .cta {
+        flex-direction: column;
+    }
+}

@@ -1,16 +1,17 @@
 import './home.css'
 import Header from '../../components/header/Header'
 import Posts from '../../components/posts/Posts'
-import SideBar from '../../components/sidebar/SideBar'
+import Footer from '../../components/footer/Footer'
+import Cta from '../../components/cta/Cta'
 
 export default function Home() {
   return (
     <>    
       <Header/>
-      <div className='home'>
-        <Posts/>
-        <SideBar/>
-      </div>
+      <h3 className='postsTitle'>Blog</h3>
+      <Posts/>
+      <Cta/>
+      <Footer/>
     </>
   )
 }
